@@ -63,8 +63,7 @@ Download Database from [Database Zip File](https://drive.google.com/file/d/1qiMr
 Import Database
 
 ```
-cd daily_news
-mongorestore --host localhost:27017 --gzip --db daily_news .
+mongorestore --host localhost:27017 --gzip --db daily_news ./daily_news
 ```
 
 ## npm Compile
